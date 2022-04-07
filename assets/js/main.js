@@ -31,4 +31,22 @@ const team = [
     },
   ];
   
-  
+
+
+//stampa i risultati in console
+    
+for (let i = 0; i < team.length; i++){
+
+    let info = team[i];
+
+    console.log("_______________________");
+
+    console.log(info.name);
+    console.log(info.role);
+    console.log(info.image);
+
+}
+
+
+
+
